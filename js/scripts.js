@@ -22,16 +22,7 @@ function Contact(first, last) {
       
       
     });
-    $("ul#contacts").append("<li><span class='contact'>" + newContact.fullName() + "</span></li>");
-    Contact.prototype.fullName = function() {
-        return this.firstName + " " + this.lastName;
-
-    $(".contact").last().click(function() {
-        $("#show-contact").show();
-        $("#show-contact h2").text(newContact.firstName);
-        $(".first-name").text(newContact.firstName);
-        $(".last-name").text(newContact.lastName);
-      })
+   
   }); 
 
 
