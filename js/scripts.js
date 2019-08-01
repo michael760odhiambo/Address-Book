@@ -14,7 +14,7 @@ function Contact(first, last) {
   
       var newContact = new Contact(inputtedFirstName, inputtedLastName);
   
-      $("ul#contacts").append("<li><span class='contact'>" + newContact.firstName + "</span></li>");
+      $("ul#contacts").append("<li><span class='contact'>" + newContact.firstName + "" +  newContact.LastName +"</span></li>");
   
       $("input#new-first-name").val("");
       $("input#new-last-name").val("");
